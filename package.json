@@ -1,0 +1,24 @@
+{
+  "name": "react-atoms",
+  "version": "0.0.1",
+  "description": "react based atom components",
+  "main": "dist/react-atoms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taese83/react-atoms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taese83/react-atoms/issues"
+  },
+  "homepage": "https://github.com/taese83/react-atoms#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "styled-components": "^5.3.0"
+  }
+}
