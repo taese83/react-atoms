@@ -3,7 +3,7 @@ const HtmlPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: "./component/index.js",
+  entry: "./components/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "react-atoms.js",
