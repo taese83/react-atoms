@@ -1,6 +1,13 @@
-const color = ({ color, bgColor }) => `
-  ${color && `color : ${color};`}
-  ${bgColor && `background-color : ${bgColor};`}
+import PropTypes from 'prop-types';
+
+const color = ({ color, bgcolor }) => `
+  ${color ? `color : ${color};` : ''}
+  ${bgcolor ? `background-color : ${bgcolor};` : ''}
 `;
 
-export { color };
+color.propTypes = {
+  color: PropTypes.string,
+  bgcolor: PropTypes.string,
+};
+
+export default color;

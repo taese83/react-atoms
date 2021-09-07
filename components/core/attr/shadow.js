@@ -1,5 +1,11 @@
-const shadow = ({ boxShadow, theme }) => `
-  ${boxShadow && `box-shadow : ${boxShadow};`}
+import PropTypes from 'prop-types';
+
+const shadow = ({ shadow }) => `
+  ${shadow ? `box-shadow : ${shadow};` : ''}
 `;
 
-export { shadow };
+shadow.propTypes = {
+  shadow: PropTypes.string,
+};
+
+export default shadow;

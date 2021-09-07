@@ -1,7 +1,6 @@
-const animation = ({ transition, transform, media }) => `
-  ${transition && `transition : ${transition}`}
-  ${transform && `transform : ${transform}`}
-  ${media && `${media}`}
+const animation = ({ transition, transform }) => `
+  ${transition ? `transition : ${transition};` : ""}
+  ${transform ? `transform : ${transform};` : ""}
 `;
 
 export { animation };

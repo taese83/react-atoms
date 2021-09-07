@@ -1,5 +1,5 @@
-const disabled = ({ disabled, theme }) => `
-  opacity : ${disabled ? theme.main.color.disabled : 1};
+const disabled = ({ disabled }) => `
+  opacity : ${disabled ? 0.3 : 1};
   pointer-events : ${disabled ? "none" : ""};
 `;
 
